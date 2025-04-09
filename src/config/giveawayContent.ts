@@ -1,38 +1,36 @@
-
 // This file centralizes all editable content for the giveaway page
 
 // Prize section
 export const prizeImages = [
-  "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1000", // Main cheese board
-  "https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=500", // Cheese assortment
-  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=500", // Olives and cheese
+  "https://images.unsplash.com/photo-1556742400-b5b7c5121f99?ixid=M3w3MjQzNjF8MXwxfHNlYXJjaHwxfHxjYWZlfGVufDB8fHx8MTc0NDIyNTQ2M3ww&ixlib=rb-4.0.3",
+  "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTc0NDIyNTQ2M3ww&ixlib=rb-4.0.3", 
+  "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwzfHxjYWZlfGVufDB8fHx8MTc0NDIyNTQ2M3ww&ixlib=rb-4.0.3", 
 ];
-
 export const prizeContent = {
-  title: "Gourmet Cheese Board Gift Basket",
-  description: "This curated gift basket is perfect for an at-home charcuterie night. Featuring a handcrafted wooden cheese board, assortment of fine cheeses, olives, sea salt pretzels, chocolate bark, and a premium knife set—everything you need for a delicious evening with your loved ones.",
+  title: "Pumpkin Patch Experience",
+  description: "Immerse yourself in the magic of autumn with an exclusive pumpkin patch experience! Enjoy a day among vibrant pumpkins in Toronto—an unforgettable treat for first-time home buyers looking to add a seasonal touch to their new home.",
   features: [
-    "Assorted gourmet cheeses & olives - expertly selected and paired for rich, balanced flavor",
-    "Sea salt pretzels & chocolate bark - the perfect mix of crunchy, salty, and sweet indulgence",
-    "Handcrafted wooden cheese tray with premium knife set for effortless serving",
-    "Free delivery directly to your door in Vaughan",
-    "Perfect for a cozy night in with family and friends",
+    "Enjoy a guided tour of a picturesque pumpkin patch in Toronto",
+    "Select your perfect pumpkin to carve or decorate your new home",
+    "Experience the charm and warmth of fall with family and friends",
+    "Free entry exclusively for first-time home buyers",
+    "Limited time offer – don’t miss this seasonal celebration!"
   ],
-  value: "$175",
+  value: "$100",
 };
 
 // Header section
 export const headerContent = {
-  title: "Win a Curated Cheese Board Gift Basket!",
-  description: "Perfect for Vaughan families looking for a cozy night in! Enter for a chance to win our exclusive cheese board package valued at $175. No purchase necessary.",
+  title: "Win a Pumpkin Patch Experience!",
+  description: "Calling all first-time home buyers in Toronto! Enter now for your chance to win a day of autumn magic valued at $100. Free entry – no purchase necessary.",
   ctaText: "Enter Now",
   heroImage: prizeImages[0],
-  secondaryImage: prizeImages[1], // Add secondary image for the header
+  secondaryImage: prizeImages[1],
 };
 
 // Navigation section
 export const navigationContent = {
-  title: "Cheese Board Giveaway",
+  title: "Pumpkin Patch Giveaway",
   links: [
     { name: 'Home', href: '#' },
     { name: 'Prize Details', href: '#prize' },
@@ -45,12 +43,12 @@ export const navigationContent = {
 // How to Enter section
 export const howToEnterContent = {
   title: "How to Enter",
-  description: "Getting started is easy! Follow these simple steps to enter our giveaway.",
+  description: "Getting started is easy! Follow these simple steps to enter our Pumpkin Patch Giveaway.",
   steps: [
     {
       icon: "Mail",
       title: "Fill Out the Form",
-      description: "Enter your email address and name in the form and submit it."
+      description: "Enter your name and email address in the form and submit it."
     },
     {
       icon: "Share2",
@@ -76,8 +74,8 @@ export const howToEnterContent = {
     },
     { 
       icon: "Gift", 
-      title: "Premium Prize", 
-      desc: "Valued at $175" 
+      title: "$100 Value Experience", 
+      desc: "Experience a day at a pumpkin patch" 
     }
   ],
   formLabels: {
@@ -85,7 +83,7 @@ export const howToEnterContent = {
     namePlaceholder: "John Doe",
     emailLabel: "Email Address",
     emailPlaceholder: "you@example.com",
-    submitButton: "Enter Giveaway",
+    submitButton: "Enter Pumpkin Patch Giveaway",
     processingText: "Processing...",
     sharingPlatforms: ["Facebook", "Twitter", "Instagram"],
     sharingText: "Share for Extra Entries:",
@@ -95,7 +93,7 @@ export const howToEnterContent = {
     title: "Entry Submitted!",
     description: "Check your email to confirm your entry."
   },
-  currentEntries: 482
+  currentEntries: 125
 };
 
 // Rules section
@@ -105,19 +103,19 @@ export const rulesContent = {
   rules: [
     {
       question: "Who is eligible to enter?",
-      answer: "Anyone 18 years or older residing in the Vaughan area can enter this giveaway.",
+      answer: "Anyone 18 years or older residing in Toronto can enter this giveaway.",
     },
     {
       question: "How long does the giveaway run?",
-      answer: "This giveaway runs until February 2nd, 2025, as indicated by the countdown timer.",
+      answer: "This giveaway runs from April 15, 2025 to April 30, 2025, as indicated by the countdown timer.",
     },
     {
       question: "How will the winner be selected?",
-      answer: "The winner will be selected randomly from all valid entries. We use a certified random selection tool to ensure fairness.",
+      answer: "The winner will be selected randomly from all valid entries using a certified random selection tool to ensure fairness.",
     },
     {
       question: "When and how will the winner be notified?",
-      answer: "The winner will be notified via email within 48 hours after the giveaway ends. They must respond within 72 hours to claim their prize.",
+      answer: "The winner will be notified via email within 48 hours after the giveaway ends on April 30, 2025. They must respond within 72 hours to claim their prize.",
     },
     {
       question: "How many times can I enter?",
@@ -132,10 +130,10 @@ export const rulesContent = {
   tipsForEntering: [
     "Double-check your email address before submitting your entry",
     "Share on social media for additional entry opportunities",
-    "Set a calendar reminder for the drawing date"
+    "Mark your calendar for the drawing date"
   ],
   importantNotice: "All winners will be contacted via the email provided during entry. Make sure to check your inbox (and spam folder) regularly after the giveaway ends.",
-  supportEmail: "support@giveaway.com",
+  supportEmail: "support@theskygroup.ca",
   termsText: "By entering, you agree to all rules and terms.",
   downloadRulesText: "Download Full Rules PDF"
 };
@@ -143,10 +141,10 @@ export const rulesContent = {
 // Contact section
 export const contactContent = {
   title: "Get In Touch",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  email: "info@theskygroup.ca",
+  phone: "289-210-5250",
   brokerage: {
-    name: "Toronto Sports Entertainment",
+    name: "The Sky Group",
     address: "123 Arena Blvd, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
@@ -156,41 +154,41 @@ export const contactContent = {
 
 // Footer section
 export const footerContent = {
-  aboutText: "The Raptors Giveaway specializes in offering exclusive prizes to our dedicated fans.",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  aboutText: "The Sky Group Giveaway connects first-time home buyers with unforgettable experiences in Toronto.",
+  email: "info@theskygroup.ca",
+  phone: "289-210-5250",
   quickLinks: ["Home", "About", "Listings", "Contact", "Privacy Policy"],
   newsletterText: "Subscribe to our newsletter for the latest updates on giveaways and exclusive offers.",
   brokerage: {
-    name: "Toronto Sports Entertainment",
+    name: "The Sky Group",
     address: "123 Arena Blvd, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
   copyright: "Copyright 2025. All rights reserved",
-  company: "The Sky Group Real Estate",
+  company: "The Sky Group",
   privacyPolicyText: "Privacy Policy"
 };
 
 // Countdown
 export const countdownContent = {
-  endDate: new Date("February 2, 2025") 
+  endDate: new Date("April 30, 2025")
 };
 
 // Color scheme configuration for the entire giveaway
 export const colorScheme = {
   primary: {
-    main: 'amber-600',
-    light: 'amber-400',
-    dark: 'amber-800',
-    gradient: 'from-amber-500 to-amber-700',
-    text: 'amber-700',
-    textLight: 'amber-500',
-    textDark: 'amber-900',
-    hover: 'amber-700',
-    border: 'amber-200',
-    background: 'amber-50',
-    accent: 'amber-100',
-    accentDark: 'amber-300',
+    main: 'orange-600',
+    light: 'orange-400',
+    dark: 'orange-800',
+    gradient: 'from-orange-500 to-orange-700',
+    text: 'orange-700',
+    textLight: 'orange-500',
+    textDark: 'orange-900',
+    hover: 'orange-700',
+    border: 'orange-200',
+    background: 'orange-50',
+    accent: 'orange-100',
+    accentDark: 'orange-300',
   },
   secondary: {
     main: 'white',
@@ -212,12 +210,12 @@ export const colorScheme = {
     infoLight: 'blue-100',
   },
   gradients: {
-    header: 'from-amber-100/70 via-amber-50/40 to-transparent',
-    countdownBg: 'from-amber-800 to-amber-950',
-    countdownText: 'from-amber-200 to-amber-400',
-    prizeTitle: 'from-amber-700 to-amber-500',
-    button: 'from-amber-500 to-amber-600',
-    buttonHover: 'from-amber-600 to-amber-700',
+    header: 'from-orange-100/70 via-orange-50/40 to-transparent',
+    countdownBg: 'from-orange-800 to-orange-950',
+    countdownText: 'from-orange-200 to-orange-400',
+    prizeTitle: 'from-orange-700 to-orange-500',
+    button: 'from-orange-500 to-orange-600',
+    buttonHover: 'from-orange-600 to-orange-700',
   },
   shadows: {
     small: 'shadow-md',
